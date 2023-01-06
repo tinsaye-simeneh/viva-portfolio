@@ -842,7 +842,12 @@ input[type='checkbox'] {
 .cards-1 .card-body {
 	padding: 0;
 }
-
+.purple-gradient{
+	background: linear-gradient(90deg, #5f4dee 0%, #a55eea 100%);
+}
+.btn:hover{
+	background: linear-gradient(90deg, #5f4dee 0%, #a55eea 100%);
+}
 
 /************************/
 /*     07. Features     */
