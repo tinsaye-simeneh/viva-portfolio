@@ -1,0 +1,16 @@
+.lang-btn2{
+	display:block;
+}
+.lang-btn1{
+	display:none;
+}
+
+@media (max-width: 768px){
+    .lang-btn1{
+        display:block;
+        margin-left:4rem;
+    }
+    .lang-btn2{
+        display:none;
+    }
+}
