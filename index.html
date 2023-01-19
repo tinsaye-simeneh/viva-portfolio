@@ -46,33 +46,40 @@
     <div
       class="container-fluid text-center purple-gradient py-5 h-100 d-inline-block"
     >
+ 
+    <div id="welcome">
+      <h1 class="text-white mt-3">WELCOME TO VIVA BET!</h1>
+      <div class="mx-auto text-center pt-5 mt-2">
+        <h1 class="text-white">Select your language prefference</h1>
+      </div>
 
-    <div class="row">
-      <div class="col-12 col-md-4 mx-auto">
-    <form onsubmit="login()">
-      <div class="form-group mt-5 pt-5">
-      <label for="password" class="text-white pb-3">Enter password:</label> 
-      <input type="password" class="form-control"  name="password" id="password" placeholder="password"/>
-      <input type="submit" class="btn btn-primary w-100 mt-5" value="Login"/>
-    </form>
+      <div class="row mx-auto text-center mt-3">
+        <div class="col-md-6 col-12 mx-auto">
+          <a
+            href="index-amh.html"
+            class="btn p-3 px-5 mx-5 text-white text-decoration-none my-5"
+            style="background-color: #5f4dee"
+          >
+            Amharic</a
+          >
+          <a
+            href="index-eng.html"
+            class="btn mx-5 border p-3 px-5 text-white text-decoration-none"
+            >English</a
+          >
+        </div>
+      </div>
+      <div class="copyright fixed-bottom">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="p-small text-center">
+              &copy; 2023 Viva Bet. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
     </div>
-    </div>
-
-    <script>
-      passwordChecker = document.getElementById('password');
-
-      function login() {
-        if(passwordChecker.value == 'testpass'){
-           alert(`Welcome to Viva Bet`);
-          window.open("./welcome.html");
-      }
-      else{
-        alert(`Enter the Correct Password`);
-        window.open("./index.html");
-      }
-    }
-    </script>
 
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
